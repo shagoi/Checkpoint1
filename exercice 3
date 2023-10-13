@@ -12,7 +12,9 @@ Et ensuite faire un commit de ce fichier
 
 Question 4:
 Les commandes git pour fusionner les main et test_valide sont:
-
+{ git pull main } afin d'obtenir la derniere version de la branche main.
+{ git merge test_valide } il faut maintenant supprimer les conflits potentiels.
+{ git push origin main } afin de valider la nouvelle version de la branche main.
 
 
 Question 5:
