@@ -1,0 +1,51 @@
+Question 1
+La commande est:
+cat /etc/passwd
+
+Question 2:
+La commande est:
+chmod 744 myfile
+
+Question 3:
+Il faut créer un fichier en { .gitignore } avec dans celui-ci la ligne de commande { *.pdf }
+Et ensuite faire un commit de ce fichier
+
+Question 4:
+Les commandes git pour fusionner les main et test_valide sont:
+
+
+
+Question 5:
+Voici les lignes de commandes pour afficher le texte:
+
+echo "Malgré le prix élevé de 100\$, il a dit \"Bonjour !\" au vendeur :"
+echo "- \"Bonjour est-ce que ce clavier fonctionne bien ?\""
+echo "- \"Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\ !\""
+echo "- \"Même des tildes ~ ?\""
+echo "- \"Evidemment !\""
+
+Question 6:
+La commande est:
+jobs -l | grep gedit
+
+Question 7:
+Les matériesl sur les couches OSI 2 et 3 sont:
+Sur la couche 2 --> les switchs, ils permettent de gérer les interfaces en local via les adresses MAC.
+Sur la couche 3 --> les routeurs, ils permettent de tracer les chemins entre les différents réseaux via les adresses IP.
+
+Question 8:
+Commandes en linux et powershell
+
+| linux | powershell |
+| ----- | ----- |
+| cd | set-location |
+| cp | copy-item |
+| mkdir | new-item |
+| ls | get-childitem |
+
+ Question 9:
+ Le payload est la partie d'un datagramme contenant le message à transmettre.
+ 
+Question 10:
+Le CIDR permet de ne pas etre contraint par les classes IP et d'adapter au mieux l'attribution des adresses IP.
+Ce qui permet de gagner en disponibilité d'adresses IP.
