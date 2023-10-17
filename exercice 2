@@ -1,1 +1,42 @@
+#! /bin/bash
+
+#Variables
+
+#Vérification de la présence d'arguments
+
+if [ -z $1 ]
+
+then
+
+	echo "Il manque les noms d'utilisateurs en argument - Fin du script"
+
+	exit 1
+
+else
+
+	# vérification de l'existence de l'utilisateur
+
+	for nbe in $* 
+
+	do	
+
+		if cat /etc/passwd | grep $nbe > /dev/null
+
+		then
+
+			echo "L'utilisateur $nbe existe déjà"
+
+		else
+
+		# l'utilisateur n'existe pas création d'un utilisateur
+
+		useradd $nbe &&  echo "L'utilisateur $nbe a été crée"
+
+		fi
+
+	done
+
+fi
+
+exit 0
 
